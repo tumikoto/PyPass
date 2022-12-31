@@ -206,4 +206,4 @@ def www_logout():
 if __name__ == "__main__":
     app.secret_key = os.urandom(32)
     # webbrowser.open("https://127.0.0.1:8192")
-    app.run(host='192.168.2.2', port=8192, ssl_context=('cert.pem', 'key.pem'))
+    app.run(host='127.0.0.1', port=8192, ssl_context=('cert.pem', 'key.pem'))
